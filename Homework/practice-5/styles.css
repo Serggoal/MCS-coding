@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 1440px;
+    font-size: 25px;
+    font-family: Arial;
+  }
+  a:link,
+  a:visited {
+  color: #e50043;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+  .header {
+    width: 1440px;
+    height: 140px;
+    padding: 50px;
+    color: #e50043;
+    font-size: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    
+    position: fixed;
+    z-index: 1;
+    background: white; 
+  }
+  .link > li {
+    margin-right: 50px;
+    display: inline;
+  }
+  .link > li:last-of-type {
+    margin-right: 0px;
+   }
+
+.hero {
+    padding-top: 140px;
+}
+.hero {
+    position: relative;
+}
+.slogon p {
+    position: absolute;
+    top: 600px;
+    left: 370px;
+    font-size: 70px;
+    color: #e50043;
+}
+.about-water {
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    margin: 150px 200px;
+    display: flex;
+}
+.botles {
+    display: flex;
+    justify-content: space-around;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 48px;
+}
+.glass {
+    padding: 30px 80px;
+}
+.about-water p {
+    padding: 24px;
+}
+.footer {
+    display: flex;
+    height: 140px;
+    background-color: #F8BFC7;
+    justify-content: space-between;
+
+}
+.footer p {
+display: inline;
+color: white;
+font-size: 50px;
+margin: 50px 50px;
+}
+   
