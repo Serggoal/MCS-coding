@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Проект №8</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+   <div class="header">
+    <div class="header-left">
+       <p>ПОСЫЛКИ</p>
+       <p>УПАКОВКА</p>
+       <p>ПОДПИСКА</p>
+    </div>
+    
+
+      <ul class="header-right">
+        <li class="menu"><span>МЕНЮ▾</span>
+          <ul class="features-menu"> <!-- Тут начинается подменю -->
+            <li><a href="#" style >О нас</a></li>
+            <li><a href="#">Условия доставки</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </li>
+      </ul>
+   </div>
+
+    <form action="https://formspree.io/f/xzbwjkoe" method="post" class="speaker-form">  <!-- form start-->
+        <div class="mainbox">
+        <div class="block-for-form">
+        <div class="form-gift">
+          <label for="full-name">Имя</label>
+          <input id="full-name" name="full-name" type="text" placeholder="Сергей"/>
+          </div>
+         <div class="form-gift">
+            <label for="City">Город</label>
+            <input id="City" name="City" type="text" placeholder="Сочи"/>
+            </div>
+         <div class="form-gift">
+                <label for="gift">Выберете подарок</label>
+                <select id="gift" name="gift" class="dropdown">
+                  <option value="gift-1">Книга в твёрдом переплете</option>
+                  <option value="gift-2" class="dropdown-2">Журнал Мурзилка</option>
+                  <option value="gift-3">Набор посуды</option>
+                  <option value="gift-4">Холодильник "Индезит"</option>
+                </select>
+              </div>
+
+          <div class="form-gift">
+               <label for="email">Электронная почта</label>
+               <input id="email" name="email" type="email" placeholder="mcs@example.com"/>
+          </div>
+          </div>
+          <div class="form-fift-button">
+            <button>ОТПРАВИТЬ</button>
+          </div>
+        </div>
+      </form>      <!-- form finish-->
+
+       <div class="down">
+          ВАША ПОСЫЛКА УЖЕ В ПУТИ!
+       </div>
+
+    <div class="footer">
+    <p>СЕКРЕТНЫЕ ПОСЫЛКИ ДЛЯ ДРУЗЕЙ</p>
+    <p>© 2022</p>
+   </div>
+ </body>
+</html>

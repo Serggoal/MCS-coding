@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    width: 1440px;
+    margin: 0 auto;
+  }
+.header {
+    color: black;
+  }
+  .footer {
+    color: white;
+   
+  }
+  .header,
+  .footer {
+    height: 90px;
+    line-height: 90px;
+    background-color:#F8BFC7;
+    display: flex;
+    justify-content: space-between;  
+    padding-left: 50px;
+    
+  }
+  .header .header-right,
+  .footer p:last-of-type {
+    margin-right: 50px;
+  }
+  .header-left {
+    display: flex;
+  }
+  .header-left p {
+    margin-left: 30px;
+  }
+  .header-left p:first-of-type {
+    margin-left: 0px;
+  }
+
+.down {
+    height: 201px;
+    color: #FEB700;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(69, 99, 232);
+    padding-top: 30px;
+}
+   .features-menu {       /*для выпадающего меню - начало*/
+    line-height: normal;           
+    display: none;
+  }
+  .menu:hover .features-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8BFC7;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    left: -20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .features-menu li {
+    list-style: none;
+    padding: 0 20px 10px 20px;
+    
+  }
+  .features-menu a {
+    text-decoration: none;
+  }
+  .features-menu a:hover {
+    color: white;
+  }
+  .features-menu a:visited:hover {
+    color: white;
+  }
+    .features-menu a:visited {
+    color: black;
+  }
+  .header-right li {
+    list-style: none;
+  }
+  .features-menu li:first-of-type {
+    margin-top: -25px;
+  }
+  .menu {
+    position: relative;
+  }
+  .menu span {
+    position: relative; 
+    cursor: pointer;
+  }
+
+.speaker-form {               /*для формы - начало*/
+    background-image: url('background.png');
+    background-size: cover;
+    height: 643px;
+    position: relative;
+  }
+
+  .form-gift {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: 10px;
+  }
+  .block-for-form {
+    padding: 15px 30px;
+    background-color: #F8BFC7;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+  }
+   .mainbox {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+  }
+  .form-gift input[type='text'],
+  .form-gift input[type="email"] {
+    background-color: #F8BFC7;
+    border: 0px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 14px;
+  }
+  .form-gift input::placeholder {
+    color: #ffffff;
+    margin-left: 10px;
+  }
+
+  .dropdown {                    /*для выпадающего меню*/
+    background-color: #F8BFC7;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+ .form-gift input[type="text"]:invalid,
+ .form-gift input[type="email"]:invalid {
+  border: 1px solid #D55C5F;
+  color: #D55C5F;
+  box-shadow: none; /* Удалим красную подсветку по умолчанию в Firefox */
+ }
+
+  
+.form-fift-button {              /*для кнопки отправки старт*/
+    width: 200px;
+    height: 60px;
+    background-color: #FEB700;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+   
+    text-align: center;
+    line-height: 55px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 290px;
+    left: 27px;
+}
+.form-fift-button button {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    
+} 
+.form-fift-button:hover {
+    background-color: #0b24fb;
+  }
+  
+  .form-fift-button:active {
+    background-color: #f1eeee;
+  } 
