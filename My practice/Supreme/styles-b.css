@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    margin: 0 auto;
+  }
+
+  .page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+.logotext {
+    font-family: Space Mono, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+  .logo {
+    position: relative;
+    width: 287px;
+    height: 82px;
+    background-color: red;
+    text-align: center;
+    margin-top: 116px;
+    margin-bottom: 48px;
+  }
+/*for button up*/
+.logo button {
+  position: absolute;
+  top: -25px;
+  left: 73.5px;
+  width: 140px;
+  height: 25px;
+  font-family: Space Mono;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 5px;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+}
+.logo button:hover {
+  background-color: white;
+  color: black;
+}
+  
+/*for button down*/
+
+  .logo img {
+    padding-top: 15px;
+    background: none;
+  }
+  .content {
+    width: 307px;
+    margin-top: 91px;
+    font-family: Space Mono, sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  .content a {
+    text-decoration: none;
+    padding-bottom: 3px;
+    color: white;
+  }
+
+  .content a:hover {
+    text-decoration: underline;
+  }
+ 
+  .footer {
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-bottom: 116px;
+  }
+
+  .footer a:last-of-type {
+    padding-right: none;
+  }
+   /*ipad*/
+  @media only screen and (min-width: 414px) and (max-width: 960px) {
+     
+  }
+  /* decktop */
+  @media only screen and (min-width: 961px) {
+    .content a:first-of-type {
+      background-color: red;
+      border: 2px solid red;
+      border-top: none;
+    } 
+    .page {
+      width: 960px;
+      margin: 0 auto;
+  }
+    .window {
+      position: absolute;
+      top: 250px;
+      left: 500px;
+      width: 70px;
+      height: 52px;
+      background-color: aliceblue;
+      border: 1px solid red;
+      border-radius: 5px;
+      font-family: Space Mono, sans-serif;
+    }
+    .window:hover {
+      width: 130px;
+      height: 90px;
+      background-color: black;
+      border: 1px solid red;
+      border-radius: 15px;
+      transition: all 1s linear 0s;
+      color: white;
+      font-weight: bold;
+    }
+  }

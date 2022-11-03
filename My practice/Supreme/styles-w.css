@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Space Mono, sans-serif;
+    font-size: 20px;
+  }
+  .logo {
+    position: relative;
+    background-color: red;
+    width: 287px;
+    height: 82px;
+    margin-top: 116px;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+  .logo button {
+    position: absolute;
+    top: -25px;
+    left: 73.5px;
+    width: 140px;
+    height: 25px;
+    font-family: Space Mono;
+    font-size: 14px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: white;
+  }
+  .logo button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .logo img {
+    padding-top: 15px;
+  }
+  .logotext {
+    text-align: center;
+  }
+  .block1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .block2 {
+    width: 400px;
+  }
+  .text-paragraf p:last-of-type {
+    font-family: Space Mono;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 12px;
+  }
+
+  .text-all-desktop p,
+  .archive p {
+    display: none;
+  }
+  .footer {
+    font-family: Space Mono;
+    font-size: 20px;
+    padding: 50px 0;
+  }
+  .footer a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media only screen and (min-width: 961px) {
+    .page {
+      width: 960px;
+    }
+    .block12 {
+      display: flex;
+      padding-top: 50px;
+    }
+  .block1,
+  .block2 {
+    width: 50%;
+  }
+  .text-paragraf p:last-of-type {
+    font-family: Space Mono;
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 12px;
+  }
+  .text-all p {
+    display: none;
+  }
+  .text-all-desktop p,
+  .archive p {
+    display: block!important;
+  }
+  .text-all-desktop {
+    font-family: Space Mono;
+    font-size: 20px;
+  }
+  .archive a {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    text-decoration: none;
+  }
+  .archive a:hover {
+    text-decoration: underline;
+  }
+  .archive p {
+    margin-top: 5px;
+  }
+  .footer { 
+    width: 100%;
+    display: flex;
+  }
+
+  .footer a {
+    display: inline;
+  }
+}
