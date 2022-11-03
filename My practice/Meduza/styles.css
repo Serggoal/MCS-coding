@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+  }
+  @font-face {
+    font-family: "PFRegalTextPro";
+    src: url('PFRegalTextPro.woff2') format('woff2');
+  }
+
+  .page {
+    width: 1440px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'PFRegalTextPro';
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    width: 1320px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .logo {
+    background-color: none;
+    margin-left: 0px;
+  }
+  .p {
+   display: inline;
+  }
+  /*menu in the header*/
+  .menu li {
+    display: inline;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .menu li:last-of-type {
+    margin-right: 0;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  /*EN*/
+  .lang {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .english a {
+    text-decoration: none;
+    color: white;
+  }
+  .english a:hover {
+    text-decoration: underline;
+  }
+  .verticalLine {                         /*вертикальная линия*/
+    border-left: 1px solid white; 
+    margin: -5px 0px 0px 0px;
+  }
+  .lang,
+  .menu {
+    padding-top: 5px;
+  }
+  .lang {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    margin-right: 0px;
+  }
+  .search {
+    position: relative;
+  }
+  .Line1 {
+    position: absolute;
+    top: 5px;
+    left: 13px;
+  }
+  /*courses*/
+  .courses {
+    display: flex;
+    background-color: white;
+    width: 1320px;
+    height: 56px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    line-height: 56px;
+    justify-content: space-between;
+  }
+  .dollar {
+    display: flex;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16px;
+  }
+  .dollar p {
+    display: block;
+    margin-right: 5px;
+  }
+  .PokazShil {
+    width: 350px;
+    display: flex;
+    margin-right: 8px;
+  }
+  .Pokazat {
+    background-color: white;
+    font-size: 19px;
+    font-weight: 700;
+    color: #9CA1A9;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .Shildik {
+    display: flex;
+    position: relative;
+  }
+  .rechange {
+    margin-top: 8px;
+  }
+  .Elips2 {
+    position: absolute;
+    top: 6px;
+    left: 2px;
+    
+  }
+   /*переключатель при наведении*/
+ 
+   .Elips2:hover {
+        transition: all 1s linear 0s;
+        position: absolute;
+        top: 6px;
+        left: 26px;
+   }
+
+  /*main box*/
+  .mainbox {
+    width: 1320px;
+    height: 1310px;
+    background-color: #f2f2f2;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 50px;
+  }
+  .box {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .boxfirst {
+    width: 1200px;
+    height: 250px;
+    margin-top: 60px;
+    border: 5px solid #A37846;
+    text-align: center;
+  }
+  .boxfirst p {
+    font-size: 50px;
+    margin-top: 25px;
+  }
+  .boxfirst .time {
+    margin-top: 58px;
+  }
+  .time {   /*для всех времен*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9CA1A9;
+    margin-bottom: 30px;
+    
+  }
+
+  .boxsecond,
+  .boxthird {
+   width: 1200px;
+   height: 436px;
+   background-color: white;
+   border: 1px solid #9CA1A9;
+   margin-top: 20px;
+  }
+  .boxleft {
+    width: 50%;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .boxleft p {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .boxleft .time {   /**/
+    position: absolute;
+    top: 385px;
+    left: 30px;
+    font-size: 15px;
+  }
+  .boxrigth {
+    width: 50%;
+    display: flex;
+  }
+  .boxrigth .time {
+    
+  }
+  .boxcolumn {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .boxmini {
+    width: 250px;
+    height: 218px;
+    font-size: 20px;
+    padding-top: 30px;    
+  }
+
+  .boxmini .time {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  /*footer*/
+  .footer {
+    width: 1320px;
+    background: none;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+  }
+ 
+  .stolb h5 {
+    margin-bottom: 24px;
+  }
+  .stolb li:last-of-type {
+    margin-bottom: 24px;
+  }
+  .stolb ul {
+    list-style-type: none;
+    
+  }
+  .stolb a {
+    text-decoration: none;
+    color: white;
+  }
+  .stolb a:hover {
+    text-decoration: underline;
+  }
+  .line {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid white;
+        margin: 40px 200px 37px 200px;
+        padding: 0;
+    }
+    .copyright p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-right: 235px;
+        margin-bottom: 39px;
+        color: white;
+    }
+
